@@ -1,0 +1,18 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>com.citas.controlador.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>CitaServlet</servlet-name>
+        <servlet-class>com.citas.controlador.CitaServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CitaServlet</servlet-name>
+        <url-pattern>/CitaServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
